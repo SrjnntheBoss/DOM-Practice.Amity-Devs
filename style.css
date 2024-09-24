@@ -1,0 +1,32 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    
+}
+button{
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    
+}
+.Student{
+    height: 50px;
+    width: 80px;
+    border: 2px solid black;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
